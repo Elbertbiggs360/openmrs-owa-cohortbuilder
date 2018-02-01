@@ -2,7 +2,7 @@
     "package": {
         "name": "openmrs-owa-cohortbuilder",
         "repo": "owa",
-        "subject": "openmrs"
+        "subject": "enkya"
     },
 
     "version": {
@@ -10,6 +10,6 @@
         "released": "2018-01-31"
     },
 
-    "files":[{"includePattern": "build/(.*\\.zip)", "uploadPattern": "$1"}],
+    "files":[{"includePattern": "./(.*\\.zip)", "uploadPattern": "$1"}],
     "publish": true
 }
